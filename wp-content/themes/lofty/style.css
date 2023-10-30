@@ -1,0 +1,138 @@
+/*
+Theme Name: Lofty Performa
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Optimize for business.
+Version: 11.20.18
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lperforma
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+.home h2.title{
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.home h2.title span{
+  color: #f4364f;
+}
+.home .card .card-title{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.home .card .card-img-overlay {
+  /*top:inherit;
+  left: inherit;
+  bottom: 10%;
+  right: 10%;*/
+  padding: .5%;
+}
+.home .card .card-img-overlay .card-title {
+  color: #fff;
+  font-size: 150%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+h1.place{
+ font-family: 'Roboto Slab', sans-serif;
+ font-weight: 400;
+ font-size: 2rem;
+ color: #2196f3;
+}
+.touristplaces h4{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ color:#9c27b0;
+ border-bottom: 1px #9c27b0 dotted;
+}
+.touristplaces{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7em;
+}
+.is-checked{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
+}
+.ured { background-color:#f44336;color:#fff !important;}
+.ured:hover {background-color:#f44336;color:#fff;text-decoration: none }
+.ugreen { background-color:#009688;color:#fff !important;}
+.ugreen:hover {background-color:#009688;color:#fff;text-decoration: none }
+.ublue { background-color:#9c27b0;color:#fff !important;}
+.ublue:hover {background-color:#9c27b0;color:#fff;text-decoration: none }
+.uyellow { background-color:#3f51b5;color:#fff !important;}
+.uyellow:hover {background-color:#3f51b5;color:#fff;text-decoration: none }
+.uorange { background-color:#ff9800;color:#000 !important;}
+.uorange:hover {background-color:#ff9800;color:#000;text-decoration: none }
+.destination {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.destination .img {
+    display: block;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.destination .icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    opacity: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.destination .text h3 {
+    font-size: 18px;
+}
+#hoteltabs .nav-tabs .nav-link.active{
+  color: #495057;
+  background-color: #fff;
+}
+#hoteltabs .nav-tabs .nav-link{
+  color: #fff;
+  background-color: #17a2b8;
+}
+.ftco-destination .heading-section h2 strong{
+  font-weight: normal;
+}
+.ftco-destination .heading-section h2 {
+  border-bottom: 2px #e91e63 dashed;
+  color: #e91e63;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+@media (min-width: 1024px) {
+  .page.container {
+    max-width: 1024px;
+  } 
+  .page .pgleft {
+    flex: 0 0 69%;
+    max-width: 69%;
+  }  
+  .page .sidebar{
+    width: 300px;
+  }
+}
